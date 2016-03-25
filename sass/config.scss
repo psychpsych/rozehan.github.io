@@ -8,7 +8,7 @@
 //
 // Color Swatches
 // --------------------------------------------------
-$turquoise:     #1abc9c;
+$turquoise:     #45BBFF;
 $green-sea:     #16a085;
 
 $emerald:      #2ecc71;
@@ -23,7 +23,7 @@ $wisteria:      #8e44ad;
 $wet-asphalt:   #34495e;
 $midnight-blue: #2c3e50;
 
-$sun-flower:    #f1c40f;
+$sun-flower:    #F7B42C;
 $orange:        #f39c12;
 
 $carrot:        #e67e22;
@@ -35,7 +35,7 @@ $pomegranate:   #c0392b;
 $clouds:        #ecf0f1;
 $silver:        #bdc3c7;
 
-$concrete:      #95a5a6;
+$concrete:      #99AABB;
 $asbestos:      #7f8c8d;
 
 // Main Colors
@@ -52,13 +52,14 @@ $danger:           $alizarin;
 $warning:          $sun-flower;
 $info:             $peter-river;
 
-$link-color:       $green-sea;
+$link-color:       $turquoise;
 $link-hover-color: $turquoise;
 
 
 // Typography
 // -------------------------
-$base-font-family: "Lato", sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,300italic,400italic,500,500italic,700,700italic);
+$base-font-family: 'Fira Sans', sans-serif;
 $base-font-size: 14px;
 $base-line-height: 1.231;
 
